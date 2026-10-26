@@ -8,7 +8,7 @@ on:
 jobs:
   apk:
     runs-on: ubuntu-latest
-        defaults:
+    defaults:
       run:
         working-directory: aether_gui
     steps:
@@ -42,4 +42,4 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: aether-apk
-        path: aether_gui/build/app/outputs/flutter-apk/*.apk
+          path: aether_gui/build/app/outputs/flutter-apk/*.apk
