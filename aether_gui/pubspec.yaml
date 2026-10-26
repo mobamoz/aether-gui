@@ -1,0 +1,15 @@
+name: aether_gui
+description: Graphical Android client for Aether (full-device VPN via local SOCKS5 + tun2socks).
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.3.0
+
+flutter:
+  uses-material-design: true
